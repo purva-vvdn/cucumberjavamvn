@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
     features = "src/test/java/com",
-    plugin = {"pretty", "html:target/cucumber-reports"}
+    plugin = {"pretty", "html:target/cucumber-reports.html"}
 )
 
 public class RunCucumberTest {
